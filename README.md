@@ -16,31 +16,31 @@ This project proposes a Fake News Detection System that analyzes the textual con
 
 System Architecture:
 1.User Interface (Frontend)
-   Allows users to input news text
-   Displays prediction and confidence score
+   -Allows users to input news text
+   -Displays prediction and confidence score
 2.Backend (Flask API)
-   Receives input from frontend
-   Preprocesses text
-   Sends text to trained ML model
-   Returns prediction and confidence
+   -Receives input from frontend
+   -Preprocesses text
+   -Sends text to trained ML model
+   -Returns prediction and confidence
 3.Machine Learning Model
-   Trained using NLP techniques
-   Uses TF-IDF / Transformer-based representations
-   Outputs classification result
+   -Trained using NLP techniques
+   -Uses TF-IDF / Transformer-based representations
+   -Outputs classification result
 
 Technologies Used:
 1.Programming & Frameworks
-   Python
-   Flask (Backend API)
-   HTML, CSS, JavaScript (Frontend)
+   -Python
+   -Flask (Backend API)
+   -HTML, CSS, JavaScript (Frontend)
 2.Machine Learning & NLP
-   scikit-learn
-   Hugging Face Transformers (optional)
-   TF-IDF Vectorization
+   -scikit-learn
+   -Hugging Face Transformers (optional)
+   -TF-IDF Vectorization
 3.Tools & Platforms
-   Google Colab (Model Training)
-   Git & GitHub (Version Control)
-   Git LFS (Large Model Files)
+   -Google Colab (Model Training)
+   -Git & GitHub (Version Control)
+   -Git LFS (Large Model Files)
 
 Project Structure:
 fake-news-detection/
@@ -69,11 +69,11 @@ The dataset contains labeled news articles categorized as Real or Fake, which ar
 Model Training:
 The model training process is implemented in a Jupyter Notebook located in the training/ folder.
 The notebook includes:
-  Data loading
-  Text preprocessing
-  Feature extraction
-  Model training
-  Evaluation
+  -Data loading
+  -Text preprocessing
+  -Feature extraction
+  -Model training
+  -Evaluation
 Due to GitHub’s file size limitation, trained model files are managed using Git LFS.
 
 How to Run the Project:
