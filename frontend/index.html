@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake News Detector AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+    <div class="glass-card">
+        <h1>🧠 Fake News Detector</h1>
+        <p class="tagline">AI-powered news authenticity checker</p>
+
+        <textarea id="news" placeholder="Paste the news article here..."></textarea>
+
+        <button onclick="checkNews()">🔍 Analyze</button>
+
+        <div id="result-box" class="hidden">
+            <div id="badge"></div>
+            <div id="confidence-text"></div>
+            <div class="progress">
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
