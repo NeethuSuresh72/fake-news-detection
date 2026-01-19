@@ -1,0 +1,21 @@
+Hardware:
+  Laptop or PC
+  Minimum 8 GB RAM
+  Stable internet connection
+
+Software:
+  Python 3
+  Google Colab / VS Code
+  Flask (backend)
+  HTML, CSS, JavaScript (frontend)
+  GitHub
+
+Libraries:
+  NumPy
+  Pandas
+  Scikit-learn
+  NLTK
+
+Dataset:
+  Labeled fake and real news dataset
+
